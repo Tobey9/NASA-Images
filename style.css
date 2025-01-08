@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(68, 70, 90);
+  color: #fff;
+  object-fit: cover;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 80vh;
+
+  background-image: url(background.jpg);
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 80vh;
+}
+
+h1,
+label {
+  text-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  margin: 3rem 0;
+}
+
+label {
+  display: block;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+input {
+  padding: 11px;
+  font-size: 2rem;
+}
+
+button {
+  font-size: 49px;
+  position: relative;
+  top: 6px;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.images {
+  margin: 5px;
+  min-width: 300px;
+}
